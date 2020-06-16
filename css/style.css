@@ -1,0 +1,276 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: aliceblue;
+}
+
+/* TOP GRID */
+#heroGrid {
+margin: 0px 5%;
+/* display: grid; */
+min-height: 500px;
+height: 70vh;
+/* grid-template-rows: 75% 25%;
+grid-template-columns: 75% 25%;
+grid-template-areas:
+"featuredProduct secondaryProduct"
+"featuredProduct CTA"; */
+}
+
+.heroGridArea {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+  border: 1px solid red;
+}
+
+#featuredProduct {
+  grid-area: featuredProduct;
+  background-image: url("../images/furniture1.png");
+}
+ #secondaryProduct {
+   grid-area: secondaryProduct;
+   background-image: url("../images/furniture2.png"); 
+ }
+
+ #CTA {
+   grid-area: CTA;
+   background-image: url("../images/woodbg.png");
+   justify-content: space-around;
+   cursor: pointer;
+ }
+
+ #headline {
+  border-bottom: 5px solid #FF6200;
+  background-color: rgba(255,255,255,0.8);
+  position: absolute;
+  left: 30%;
+  top: 200px;
+  padding: 25px;
+  max-width: 550px;
+  z-index: 100; 
+
+}
+/* TOP GRID END */
+
+.subHeading {
+  text-align: center;
+  width: 300px;
+  margin: 50px auto;
+}
+
+/* SECOND GRID */
+
+
+/* Navigation CSS */
+/* CHECK OUT THIS CODE BELOW IF YOU WANT TO GET A REFRESHER ON FLEX */
+#navBar {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 5%;
+}
+#navBar h1 {
+  width: 25%;
+  font-weight: 500;
+}
+#navigation {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#navigation p {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#navBar p{
+  color:black;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 25%;
+}
+.icons img {
+  margin: 15px;
+  cursor: pointer;
+}
+.highlight {
+  color: #FF6200;
+  font-weight: 700;
+}
+
+/* Typography CSS */
+h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 17rem;
+}
+
+h2 {
+  font-size: 60px;
+  margin: 0px 0px;
+  color: #FF6200;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0px 0px;
+}
+
+h4 {
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+
+#headline p {
+  max-width: 350px;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0px 0px;
+  color: #636364;
+}
+
+
+.projects{
+  align-items: center;
+  width: 100%;
+  height: 50rem;
+  background: url(/Homework/images/fish.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+#project1 h1{
+  position: relative;
+  left: 300px;
+  top: 150px;  
+  width: 200px;
+}
+#project2 h1{
+  position: relative;
+  left: 60%;
+  top: 150px;  
+  width: 200px;
+}
+
+#project2 button {
+  left: 25%;
+  }
+
+#project3 h1{
+  position: relative;
+  left: 300px;
+  top: 150px;  
+  width: 200px;
+}
+.skills{
+  align-items: center;
+  width: 100%;
+  height: 50rem;
+  background: url(/Homework/images/space.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+#cardbox{
+margin: auto;
+outline: blue solid 3px;
+left:center;
+}
+
+
+
+
+
+ .resume img{
+  max-width: 600px;
+  max-height: 900px;
+  position: relative;
+  margin-left: 20%;
+}
+
+.resume h1 {
+  top: 230px; 
+  left: 70%;
+  max-width: 300PX;
+  position: relative;
+  }
+
+.resume button {
+  left: 20%;
+  position: relative;
+  }
+
+.resume P {
+  left: 70%;
+  top: 230px; 
+  max-width: 300PX;
+  position: relative;
+}
+
+.resume{
+  height: 50rem;
+  background: url(/Homework/images/space2.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  color: rgb(207, 0, 180);
+ 
+}
+
+.contact{
+  align-items: center;
+  max-width: 100%;
+  height: 50rem;
+  background: url(/Homework/images/ysky.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.about {
+  width: 100%;
+  height: 50rem;
+  background: url(/Homework/images/fish.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+font-size: 4rem !important;
+padding: 20px 60px !important;
+background-color: coral !important;
+border: none !important;
+margin: 40px 20px !important;
+cursor: pointer !important;
+color: aliceblue !important;
+display: inline-block !important;
+}
+
+.projects .btn {
+  position: relative;
+  left: 60%;
+  top: -300px;
+  outline: red solid 2px;
+}
+
+
+* {
+  outline: solid red 2px;
+}
